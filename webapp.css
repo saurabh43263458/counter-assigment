@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(138, 109, 128), rgb(130, 92, 87));
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .counter-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 2em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+  }
+  
+  #counter {
+    font-size: 2.5em;
+    width: 80px;
+  }
+  
+  .progress-container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 30px;
+    background-color: #4caf50;
+    border-radius: 20px;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .undo-redo-controls {
+    margin-top: 20px;
+  }
+  
